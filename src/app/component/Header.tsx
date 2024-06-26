@@ -10,7 +10,7 @@ import darkmode from "../assests/darkmode.svg";
 export const Header = () => {
   return (
    
-      <div className="h-14 flex justify-around items-center py-12 ">
+      <div className="h-14 flex justify-between items-center py-12 ">
         <Image src={logo} alt="logo" width={150} height={36} className="w-auto" />
         <div className="">
           <ul className="flex  gap-9 text-[14px] dark:text-white ">
@@ -21,13 +21,13 @@ export const Header = () => {
               <Link href={"/"}>Blog</Link>
             </li>
             <li>
-              <Link href={"/"}>Single Post</Link>
+              <Link href={"/page/singlepost"}>Single Post</Link>
             </li>
             <li>
               <Link href={"/"}>Pages</Link>
             </li>
             <li>
-              <Link href={"/"}>About</Link>
+              <Link href={"/page/authorpage"}>Author</Link>
             </li>
           </ul>
         </div>

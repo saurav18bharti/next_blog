@@ -18,11 +18,15 @@ const config: Config = {
         "16px":"16px"
       },
       width:{
-        "31rem":"31rem"
+        "31rem":"31rem",
+        "22rem":"22rem"
+      },
+      height:{
+        "100vh":"70vh"
       },
       backgroundColor:{
         bg_custom_colors:"#181A2A",
-        custom_gray_colors:"#52525B",
+        custom_gray_colors:"#242535",
         custom_blue_colrs:"#4B6BFB",
         custom_footer_colors:"#141624"
       },
