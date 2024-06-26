@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { ContentWrapper } from "./ContentWrapper";
 import Image from "next/image";
-import logo from '../assests/Logo.png'
+import logo from "../assests/Logo.png";
 import logolightmode from '../assests/logolightmode.svg'
 import useDarkMode from "../clientui/useDarkMode";
 

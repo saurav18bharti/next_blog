@@ -4,7 +4,7 @@ type contentwrapperProps = {
 }
 export const ContentWrapper = ({children}:contentwrapperProps) => {
   return (
-    <div className='block mx-96'>
+    <div className='block  xl:mx-72 2xl:mx-22rem md:mx-36'>
       {children}
     </div>
   )

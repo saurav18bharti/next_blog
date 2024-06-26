@@ -18,11 +18,15 @@ const config: Config = {
         "16px":"16px"
       },
       width:{
-        "31rem":"31rem",
-        "22rem":"22rem"
+        "31rem":"36.8rem",
+        "22rem":"18rem"
       },
       height:{
-        "100vh":"70vh"
+        "100vh":"100vh",
+        "19rem":"18.7rem"
+      },
+      spacing:{
+        "22rem":"22rem"
       },
       customDark:{
         custom_background:"#181A2A",
@@ -38,6 +42,9 @@ const config: Config = {
       colors:{
         custom_text_grey_color:"#97989F",
         technology_text_color:"#4B6BFB"
+      },
+      margin:{
+        "22rem":"22rem"
       }
     },
   },
