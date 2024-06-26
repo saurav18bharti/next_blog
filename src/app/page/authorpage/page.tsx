@@ -17,11 +17,11 @@ const Authorpage = () => {
    
     <ContentWrapper>
       <Header/>
-        <div className='flex flex-col items-center justify-center dark:text-custom_text_grey_color bg-custom_gray_colors px-72 gap-4 py-14 rounded-2xl mb-12'>
+        <div className='flex flex-col items-center justify-center dark:text-custom_text_grey_color bg-gray-100 dark:bg-custom_gray_colors px-72 gap-4 py-14 rounded-2xl mb-12'>
             <div className='flex gap-4 justify-center items-center '>
                 <Image  src={user} alt="logo" width={50} height={10} className="rounded-3xl" />
                 <div>
-                    <p className='dark:text-white text-[16px]'>Jonathan Doe </p>
+                    <p className='dark:text-white text-[16px] text-black font-semibold'>Jonathan Doe </p>
                     <p className='text-[14px]'>Collaborator & Editor</p>
                 </div>
             </div>

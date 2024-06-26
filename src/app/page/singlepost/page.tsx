@@ -21,7 +21,7 @@ const SinglePost = () => {
             The Impact of Technology on the Workplace: How Technology is
             Changing
           </p>
-          <span className="flex items-center dark:text-custom_text_grey_color gap-3 text-[14px]">
+          <span className="flex items-center text-custom_text_grey_color gap-3 text-[14px]">
             <Image
               src={image}
               alt="logo"
@@ -68,7 +68,7 @@ const SinglePost = () => {
               </div>
           ))
          }
-            <p className="dark:text-white p-8 bg-custom_gray_colors rounded-lg border-3 border-r-0 border-t-0 border-b-0 font-serif my-4"><i> “ Traveling can expose you to new environments and potential health risks, so its crucial to take precautions to stay safe and healthy. ”</i></p>
+            <p className="dark:text-white p-8 bg-gray-100 dark:bg-custom_gray_colors bg-cus rounded-lg border-3 border-r-0 border-t-0 border-b-0 font-serif my-4"><i> “ Traveling can expose you to new environments and potential health risks, so its crucial to take precautions to stay safe and healthy. ”</i></p>
             </div>
 
             

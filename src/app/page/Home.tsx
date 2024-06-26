@@ -14,12 +14,12 @@ export const Home = () => {
 
         <Image src={image} alt="logo" width={1000} height={100} className="rounded-3xl w-full" />
         </div>
-        <div className="absolute bottom-0 left-28 top-80   bg-bg_custom_colors w-31rem h-64 border-1 border-gray-800 dark:text-white py-6 px-6 pb-1 rounded-2xl  ">
+        <div className="absolute bottom-0 left-28 top-80  bg-white dark:bg-bg_custom_colors w-31rem h-64 border-1 border-gray-200 dark:border-gray-800 dark:text-white py-6 px-6 pb-1 rounded-2xl shadow-lg ">
             <span>
                 <p className="bg-custom_blue_colrs w-fit py-1 px-3 rounded-lg text-[14px]">Technology</p>
                 <p className="text-[30px] pb-2 pt-1 font-semibold pr-3">The Impact of Technology on the Workplace: How Technology is Changing</p>
             </span>
-            <span className="flex items-center dark:text-custom_text_grey_color gap-3 text-[14px]">
+            <span className="flex items-center text-custom_text_grey_color gap-3 text-[14px]">
                 <Image src={image} alt="logo" width={40}  className="rounded-3xl h-10" />
                 <p>Delta4 InfoTech</p>
                 <p>25 June ,2024</p>
@@ -33,7 +33,7 @@ export const Home = () => {
       <Card/>
       </div>
 
-      <p className="dark:text-custom_text_grey_color border border-gray-800 w-fit py-1 px-3 rounded-lg text-[14px]  text-center">
+      <p className="dark:text-custom_text_grey_color text-gray-500 border dark:border-gray-800 border-gray-200 w-fit py-2 px-4 rounded-lg text-[14px]  text-center">
         View All Post
       </p>
       </div>

@@ -24,11 +24,16 @@ const config: Config = {
       height:{
         "100vh":"70vh"
       },
+      customDark:{
+        custom_background:"#181A2A",
+
+      },
       backgroundColor:{
         bg_custom_colors:"#181A2A",
         custom_gray_colors:"#242535",
         custom_blue_colrs:"#4B6BFB",
-        custom_footer_colors:"#141624"
+        custom_footer_colors:"#141624",
+        custom_light_footer_colors:"#E8E8EA"
       },
       colors:{
         custom_text_grey_color:"#97989F",
@@ -37,5 +42,6 @@ const config: Config = {
     },
   },
   plugins: [nextui()],
+  darkMode: 'class'
 };
 export default config;
