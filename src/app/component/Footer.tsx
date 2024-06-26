@@ -1,9 +1,15 @@
-import React from "react";
+"use client"
+import React, { useEffect, useState } from "react";
 import { ContentWrapper } from "./ContentWrapper";
 import Image from "next/image";
 import logo from '../assests/Logo.png'
+import logolightmode from '../assests/logolightmode.svg'
+import useDarkMode from "../clientui/useDarkMode";
 
 export const Footer = () => {
+  const {isDarkMode}= useDarkMode();
+
+
   return (
     <div className="dark:bg-custom_footer_colors  bg-custom_light_footer_colors mt-36 ">
       <ContentWrapper>
@@ -69,7 +75,7 @@ export const Footer = () => {
         <div className="empty_border border border-b-0 dark:border-gray-800 border-gray-300  mb-4"></div>
         <div className="flex justify-between items-center">
           <div className="flex gap-2 flex-col justify-between">
-            <Image src={logo} alt="logo" width={150} height={36} className="" />
+           { isDarkMode  ? <Image src={logo} alt="logo" width={150} height={36} className="" /> : <Image src={logolightmode} alt="logo" width={150} height={36} className="" />} 
             <p className="dark:text-white text-[14px]">© <span className="font-semibold">JS Template</span> <span className="dark:text-custom_text_grey_color">2023. All Rights Reserved</span> </p>
           </div>
           <div className="flex dark: text-gray-500 text-[14px] gap-3 justify-center ">    

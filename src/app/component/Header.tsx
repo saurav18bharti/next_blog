@@ -8,38 +8,13 @@ import search from "../assests/search.svg";
 import darkmode from "../assests/darkmode.svg";
 import lightmode from "../assests/lightmode.svg";
 import logolightmode from "../assests/logolightmode.svg";
+import useDarkMode from "../clientui/useDarkMode";
 
 
 
 
 export const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
-
-    useEffect(() => {
-        if (localStorage.getItem('theme') === 'dark') {
-          document.documentElement.classList.add('dark');
-          localStorage.setItem('isDarkMode','true');
-          setIsDarkMode(true);
-        } else {
-          document.documentElement.classList.remove('dark');
-          localStorage.setItem('isDarkMode','false');
-          setIsDarkMode(false);
-        }
-      }, []);
-    
-      const toggleDarkMode = () => {
-        if (document.documentElement.classList.contains('dark')) {
-          document.documentElement.classList.remove('dark');
-          localStorage.setItem('theme', 'light');
-          localStorage.setItem('isDarkMode','false');
-          setIsDarkMode(false);
-        } else {
-          document.documentElement.classList.add('dark');
-          localStorage.setItem('theme', 'dark');
-          localStorage.setItem('isDarkMode','true');
-          setIsDarkMode(true);
-        }
-      };
+  const {isDarkMode, toggleDarkMode} = useDarkMode();
   return (
    
       <div className="h-14 flex justify-between items-center py-12 ">
