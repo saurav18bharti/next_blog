@@ -1,0 +1,6 @@
+.color{
+    color: rgb(146, 210, 214)
+}
+.no_color:hover{
+    color: rgb(185, 184, 184);
+}

@@ -17,6 +17,11 @@ const config: Config = {
       fontSize:{
         "16px":"16px"
       },
+      fontFamily:{
+        work_sans : ["var(--font-work_sans)"],
+        source:["var(--font-serif)"],
+        jakarata :["var(--font-jakarta)"]
+      },
       width:{
         "31rem":"36.8rem",
         "22rem":"18rem"
@@ -37,14 +42,19 @@ const config: Config = {
         custom_gray_colors:"#242535",
         custom_blue_colrs:"#4B6BFB",
         custom_footer_colors:"#141624",
-        custom_light_footer_colors:"#E8E8EA"
+        custom_light_footer_colors:"#F6F6F7"
       },
       colors:{
         custom_text_grey_color:"#97989F",
-        technology_text_color:"#4B6BFB"
+        technology_text_color:"#4B6BFB",
+        single_post_text_color:"#3B3C4A",
+        single_post_topic_text_color:"#181A2A"
       },
       margin:{
-        "22rem":"22rem"
+        "22rem":"21.9rem"
+      },
+      padding:{
+        "9px":"9px"
       }
     },
   },

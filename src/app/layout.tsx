@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import {  Plus_Jakarta_Sans, Source_Serif_4, Work_Sans } from "next/font/google";
 import "./globals.css";
+import { Header } from "./component/Header";
+import { Footer } from "./component/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const jakarata = Plus_Jakarta_Sans({ subsets: ["latin"] , variable: '--font-jakarta'});
+const source = Source_Serif_4({subsets: ['latin'] , variable: '--font-serif'})
+const work_sans = Work_Sans({subsets: ['latin'],variable: '--font-work_sans'})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${jakarata.variable} ${work_sans.variable} ${source.variable}`}>
+        <Header />
+        {children}
+        <Footer/>
+        
+        </body>
     </html>
   );
 }

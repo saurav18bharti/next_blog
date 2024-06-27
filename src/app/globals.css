@@ -8,7 +8,6 @@
   box-sizing: border-box;
 
 }
-body{
-  /* background-color: #181A2A; */
-  font-family: sans-serif;
+ ::-webkit-scrollbar {
+  display: none;
 }
