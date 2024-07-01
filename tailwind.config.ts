@@ -24,7 +24,8 @@ const config: Config = {
       },
       width:{
         "31rem":"36.8rem",
-        "22rem":"18rem"
+        "22rem":"18rem",
+        "61%":"50%",
       },
       height:{
         "100vh":"100vh",

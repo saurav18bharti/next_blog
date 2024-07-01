@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
-import {  Plus_Jakarta_Sans, Source_Serif_4, Work_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans, Source_Serif_4, Work_Sans } from "next/font/google";
 import "./globals.css";
-import { Header } from "./component/Header";
-import { Footer } from "./component/Footer";
 
-const jakarata = Plus_Jakarta_Sans({ subsets: ["latin"] , variable: '--font-jakarta'});
-const source = Source_Serif_4({subsets: ['latin'] , variable: '--font-serif'})
-const work_sans = Work_Sans({subsets: ['latin'],variable: '--font-work_sans'})
+
+const jakarata = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-jakarta",
+});
+const source = Source_Serif_4({ subsets: ["latin"], variable: "--font-serif" });
+const work_sans = Work_Sans({
+  subsets: ["latin"],
+  variable: "--font-work_sans",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,12 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jakarata.variable} ${work_sans.variable} ${source.variable}`}>
-        <Header />
+      <body
+        className={`${jakarata.variable} ${work_sans.variable} ${source.variable}`}
+        >
         {children}
-        <Footer/>
-        
-        </body>
+      </body>
     </html>
   );
 }

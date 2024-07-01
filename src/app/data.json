@@ -3,54 +3,72 @@
         "id": 1,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg",
+        "topic":"  The Impact-1 of Technology on the Workplace: How Technology is Changing",
+        "slug":"the-impact-1"
     },
     {
         "id": 2,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg",
+         "topic":"  The Impact-2 of Technology on the Workplace: How Technology is Changing",
+          "slug":"the-impact-2"
     },
     {
         "id": 3,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg",
+         "topic":"  The Impact-3 of Technology on the Workplace: How Technology is Changing",
+          "slug":"the-impact-3"
     },
     {
         "id": 1,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg", 
+        "topic":"  The Impact-4 of Technology on the Workplace: How Technology is Changing",
+         "slug":"the-impact-4"
     },
     {
         "id": 2,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg",
+         "topic":"  The Impact-5 of Technology on the Workplace: How Technology is Changing",
+          "slug":"the-impact-5"
     },
     {
         "id": 3,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg",
+         "topic":"  The Impact-6 of Technology on the Workplace: How Technology is Changing",
+          "slug":"the-impact-6"
     },
     {
         "id": 1,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg", 
+        "topic":"  The Impact-7 of Technology on the Workplace: How Technology is Changing",
+         "slug":"the-impact-7"
     },
     {
         "id": 2,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg",
+         "topic":"  The Impact-8 of Technology on the Workplace: How Technology is Changing",
+          "slug":"the-impact-8"
     },
     {
         "id": 3,
         "title": "title 1",
         "description": "description 1",
-        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg"
+        "img":"https://cdn.pixabay.com/photo/2024/04/06/09/18/highland-cow-8678950_1280.jpg",
+         "topic":"  The Impact-9 of Technology on the Workplace: How Technology is Changing",
+          "slug":"the-impact-9"
     }
 ]
